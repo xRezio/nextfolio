@@ -1,0 +1,114 @@
+{
+    "React": {
+        "favicon": "https://reactjs.org/favicon.ico",
+        "docs": "https://react.dev"
+    },
+    "Redux": {
+        "favicon": "https://redux.js.org/img/favicon/favicon.ico",
+        "docs": "https://redux.js.org/introduction/getting-started"
+    },
+    "React Router": {
+        "favicon": "https://reactrouter.com/favicon.ico",
+        "docs": "https://reactrouter.com/web/guides/quick-start"
+    },
+    "Material-UI": {
+        "favicon": "https://material-ui.com/static/favicon.ico",
+        "docs": "https://material-ui.com/getting-started/installation/"
+    },
+    "Axios": {
+        "favicon": "",
+        "docs": "https://axios-http.com/docs/intro"
+    },
+    "Node.js": {
+        "favicon": "https://nodejs.org/static/images/favicons/favicon.png",
+        "docs": "https://nodejs.org/en/docs/"
+    },
+    "Java" : {
+        "favicon": "https://www.oracle.com/favicon.ico",
+        "docs": "https://docs.oracle.com/en/java/"
+    },
+    "Express": {
+        "favicon": "https://expressjs.com/images/favicon.png",
+        "docs": "https://expressjs.com/en/starter/installing.html"
+    },
+    "MongoDB": {
+        "favicon": "https://www.mongodb.com/assets/images/global/favicon.ico",
+        "docs": "https://docs.mongodb.com/"
+    },
+    "Mongoose": {
+        "favicon": "https://mongoosejs.com/docs/images/mongoose5_62x30_transparent.png",
+        "docs": "https://mongoosejs.com/docs/guide.html"
+    },
+    "JWT": {
+        "favicon": "",
+        "docs": "https://jwt.io/introduction/"
+    },
+    "Bcrypt": {
+        "favicon": "",
+        "docs": "https://www.npmjs.com/package/bcrypt"
+    },
+    "Nodemailer": {
+        "favicon": "",
+        "docs": "https://nodemailer.com/about/"
+    },
+    "Socket.io": {
+        "favicon": "https://socket.io/css/images/favicon.ico",
+        "docs": "https://socket.io/docs/v4/index.html"
+    },
+    "React Native": {
+        "favicon": "https://reactnative.dev/img/favicon.ico",
+        "docs": "https://reactnative.dev/docs/getting-started"
+    },
+    "Expo": {
+        "favicon": "data:image/png;base64,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",
+        "docs": "https://docs.expo.dev/"
+    },
+    "React Navigation": {
+        "favicon": "https://reactnavigation.org/img/favicon.ico",
+        "docs": "https://reactnavigation.org/docs/getting-started"
+    },
+    "React Native Elements": {
+        "favicon": "",
+        "docs": "https://reactnativeelements.com/docs/"
+    },
+    "React Native Paper": {
+        "favicon": "",
+        "docs": "https://callstack.github.io/react-native-paper/"
+    },
+    "mysql": {
+        "favicon": "https://www.mysql.com/common/themes/sakila/favicon.ico",
+        "docs": "https://dev.mysql.com/doc/"
+    },
+    "html": {
+        "favicon": "https://cdn-icons-png.flaticon.com/512/3291/3291670.png",
+        "docs": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    },
+    "css": {
+        "favicon": "https://icons.iconarchive.com/icons/martz90/hex/512/css-3-icon.png",
+        "docs": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    "javascript": {
+        "favicon": "https://a.thumbs.redditmedia.com/zDOFJTXd6fmlD58VDGypiV94Leflz11woxmgbGY6p_4.png",
+        "docs": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    "typescript": {
+        "favicon": "https://www.typescripttutorial.net/wp-content/uploads/2020/04/favicon.png",
+        "docs": "https://www.typescriptlang.org/docs/"
+    },
+    "sass": {
+        "favicon": "https://sass-lang.com/favicon.ico",
+        "docs": "https://sass-lang.com/documentation"
+    },
+    "Maven": {
+        "favicon": "https://maven.apache.org/favicon.ico",
+        "docs": "https://maven.apache.org/guides/index.html"
+    },
+    "Gradle": {
+        "favicon": "https://cdn.icon-icons.com/icons2/2108/PNG/512/gradle_icon_130917.png",
+        "docs": "https://docs.gradle.org/current/userguide/userguide.html"
+    },
+    "Itch.io": {
+        "favicon": "https://itch.io/favicon.ico",
+        "docs": "https://itch.io/docs/creators"
+    }
+}
