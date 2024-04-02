@@ -19,7 +19,7 @@ const Project = ({ title, image, description, technologies }) => {
           </Typography>
         </CardContent>
       </Card>
-    );
+      );
   };
 
 export default Project;

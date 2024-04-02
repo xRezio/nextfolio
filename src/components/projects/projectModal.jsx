@@ -9,7 +9,7 @@ import {
     Avatar,
     Paper
   } from '@mui/material';
-import technologies from '../projects/techno.json';
+import technologies from './techno.json';
 import CloseButton from '../utils/closeButton';
 import Dropdown from '../utils/dropdown';
 
