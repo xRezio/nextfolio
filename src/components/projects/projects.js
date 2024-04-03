@@ -26,7 +26,7 @@ const projects = [
       title: 'My_Discord',
       cover: 'https://via.placeholder.com/150',
       image: 'https://f.hellowork.com/blogdumoderateur/2023/02/discord-salons-conference-video.jpg',
-      description: 'This project is a Pixel-Art game developed in Java ( LibGdx and Itch.io) that aims to reproduce a Castlevania on OOP.',
+      description: 'This project is an IRC chat developed in React and SocketIO used to look like Discord.',
       link: 'https://example.com',
       github: 'https://github.com',
       techno : ['React', 'Node.js', 'Express', 'MongoDB'],
