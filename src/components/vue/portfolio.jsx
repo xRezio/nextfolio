@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container,Box,Divider,Typography,ThemeProvider} from '@mui/material';
+import {Container,Box,Divider,Typography,ThemeProvider, Button} from '@mui/material';
 import 'swiper/swiper-bundle.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -13,6 +13,7 @@ import AboutBox from '../about/aboutBox';
 import ContactBox from '../contact/contactBox';
 import EducationBox from '../job/educationBox';
 import Notify from '../../api/notify';
+import cv from '../CV/edwin_carin.pdf';
 function Portfolio() {
 
     return (
@@ -20,6 +21,11 @@ function Portfolio() {
         <Container maxWidth="lg" sx={{ mt: 4 }}>
           <Notify />{/* Notify me */}
           <AboutBox />{/* About me */}
+          <Box display="flex" justifyContent="center" mb={2}>
+          <Button variant="contained" color="primary" href={cv} download>
+            Télécharger mon CV
+          </Button>
+        </Box>
             <Box id="education" sx={{ mt: 8 }}>
               <Typography variant="h4" component="h2" gutterBottom>
                Etudes
