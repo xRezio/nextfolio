@@ -12,12 +12,13 @@ import ProjectSwiper from '../projects/projectSwiper';
 import AboutBox from '../about/aboutBox';
 import ContactBox from '../contact/contactBox';
 import EducationBox from '../job/educationBox';
-
+import Notify from '../../api/notify';
 function Portfolio() {
 
     return (
       <ThemeProvider theme={theme}>
         <Container maxWidth="lg" sx={{ mt: 4 }}>
+          <Notify />{/* Notify me */}
           <AboutBox />{/* About me */}
             <Box id="education" sx={{ mt: 8 }}>
               <Typography variant="h4" component="h2" gutterBottom>
