@@ -21,7 +21,7 @@ function Portfolio() {
           <AboutBox />{/* About me */}
             <Box id="education" sx={{ mt: 8 }}>
               <Typography variant="h4" component="h2" gutterBottom>
-               Experiences
+               Etudes
               </Typography>
               <Divider />
               <EducationBox />{/* Education Section */}
