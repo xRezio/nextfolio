@@ -14,6 +14,8 @@ import ContactBox from '../contact/contactBox';
 import EducationBox from '../job/educationBox';
 import Notify from '../../api/notify';
 import cv from '../CV/edwin_carin.pdf';
+import {Downloaded} from '../CV/download';
+
 function Portfolio() {
 
     return (
@@ -22,7 +24,7 @@ function Portfolio() {
           <Notify />{/* Notify me */}
           <AboutBox />{/* About me */}
           <Box display="flex" justifyContent="center" mb={2}>
-          <Button variant="contained" color="primary" href={cv} download>
+          <Button onClick={Downloaded} variant="contained" color="primary" href={cv} download>
             Télécharger mon CV
           </Button>
         </Box>
